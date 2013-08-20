@@ -1,5 +1,5 @@
 <!--
-  Copyright 2012 Roman Nurik
+  Copyright 2013 Google Inc.
 
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -27,8 +27,6 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:orientation">vertical</item>
-        <item name="android:paddingLeft">16dp</item>
-        <item name="android:paddingRight">16dp</item>
     </style>
 
     <style name="WizardPageTitle">
@@ -36,6 +34,8 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
         <item name="android:paddingLeft">?android:attr/listPreferredItemPaddingLeft</item>
         <item name="android:textSize">36sp</item>
         <item name="android:textColor">#ff0099cc</item>

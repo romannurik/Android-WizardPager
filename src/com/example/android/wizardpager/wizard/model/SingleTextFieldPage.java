@@ -16,7 +16,7 @@
 
 package net.i2p.android.wizard.model;
 
-import net.i2p.android.wizard.ui.TextFieldFragment;
+import net.i2p.android.wizard.ui.SingleTextFieldFragment;
 
 import android.support.v4.app.Fragment;
 import android.text.TextUtils;
@@ -26,16 +26,16 @@ import java.util.ArrayList;
 /**
  * A page asking for a text field.
  */
-public class TextFieldPage extends Page {
+public class SingleTextFieldPage extends Page {
     protected String mDesc = "";
 
-    public TextFieldPage(ModelCallbacks callbacks, String title) {
+    public SingleTextFieldPage(ModelCallbacks callbacks, String title) {
         super(callbacks, title);
     }
 
     @Override
     public Fragment createFragment() {
-        return TextFieldFragment.create(getKey());
+        return SingleTextFieldFragment.create(getKey());
     }
 
     @Override
@@ -48,7 +48,7 @@ public class TextFieldPage extends Page {
         return !TextUtils.isEmpty(mData.getString(SIMPLE_DATA_KEY));
     }
 
-    public TextFieldPage setDescription(String desc) {
+    public SingleTextFieldPage setDescription(String desc) {
         mDesc = desc;
         return this;
     }

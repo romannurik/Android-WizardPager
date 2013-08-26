@@ -66,6 +66,7 @@ public class SingleBooleanFragment extends Fragment {
         ((TextView) rootView.findViewById(R.id.wizard_text_field_desc)).setText(mPage.getDesc());
 
         mCheckBox = ((CheckBox) rootView.findViewById(R.id.wizard_check_box));
+        mCheckBox.setChecked(mPage.getData().getBoolean(Page.SIMPLE_DATA_KEY));
         if (mPage.getLabel() != null)
             mCheckBox.setText(mPage.getLabel());
         return rootView;

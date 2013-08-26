@@ -61,7 +61,7 @@ public class SingleBooleanFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_wizard_page_single_boolean, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_page_single_boolean, container, false);
         ((TextView) rootView.findViewById(android.R.id.title)).setText(mPage.getTitle());
         ((TextView) rootView.findViewById(R.id.wizard_text_field_desc)).setText(mPage.getDesc());
 

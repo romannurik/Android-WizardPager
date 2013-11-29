@@ -70,6 +70,10 @@ public class BranchPage extends SingleFixedChoicePage {
         mBranches.add(new Branch(choice, childPageList));
         return this;
     }
+    
+    public BranchPage addBranch(String choice) {
+        mBranches.add(new Branch(choice, new PageList());
+    }
 
     @Override
     public Fragment createFragment() {

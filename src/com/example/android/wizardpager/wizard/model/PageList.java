@@ -22,6 +22,11 @@ import java.util.ArrayList;
  * Represents a list of wizard pages.
  */
 public class PageList extends ArrayList<Page> implements PageTreeNode {
+    
+    public PageList() {
+        
+    }
+    
     public PageList(Page... pages) {
         for (Page page : pages) {
             add(page);

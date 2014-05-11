@@ -133,7 +133,6 @@ public class MainActivity extends FragmentActivity implements
         });
 
         onPageTreeChanged();
-        updateBottomBar();
     }
 
     @Override

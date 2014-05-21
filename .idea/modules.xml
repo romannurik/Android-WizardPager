@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Android-WizardPager.iml" filepath="$PROJECT_DIR$/Android-WizardPager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WizardPager.iml" filepath="$PROJECT_DIR$/WizardPager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sample/sample.iml" filepath="$PROJECT_DIR$/sample/sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wizardLib/wizardLib.iml" filepath="$PROJECT_DIR$/wizardLib/wizardLib.iml" />
+    </modules>
+  </component>
+</project>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- API 21 application theme. -->
+    <style name="AppTheme" parent="android:Theme.Material.Light">
+
+        <!-- Main theme colors -->
+
+        <!--   App branding color for the app bar -->
+        <item name="android:colorPrimary">#009688</item>
+
+        <!-- Colour of the text in the app bar -->
+        <item name="android:textColorPrimary">#F5F5F5</item>
+
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="android:colorPrimaryDark">#00796B</item>
+
+        <!-- Color of the navigation bar -->
+        <item name="android:navigationBarColor">#00796B</item>
+
+        <item name="android:textColor">#424242</item>
+    </style>
+</resources>

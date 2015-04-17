@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/WizardPageContainer">
+
+    <TextView style="@style/WizardPageTitle" />
+
+    <EditText
+        android:id="@+id/etDate"
+        android:focusable="false"
+        android:hint="@string/date_hint"
+        android:inputType="date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:paddingLeft="?android:attr/listPreferredItemPaddingLeft"
+        android:fontFamily="sans-serif-thin" />
+
+</LinearLayout>

@@ -12,6 +12,4 @@ This template wizard is a Lollipop version of the original wizard.
 
 I've provided a GIF showing the wizard in action.
 
-![Material Wizard GIF](http://i.imgur.com/qrnFnIb.gif)
-
-Thanks to Benjamin Fleet for creating Herp Derpsum which I used as dummy text. It can be found here:  http://herpderpsum.com/
+![Material Wizard GIF](http://i.imgur.com/5cX4hAw.gif)

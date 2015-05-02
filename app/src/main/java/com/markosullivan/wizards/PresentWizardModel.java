@@ -20,6 +20,7 @@ import android.content.Context;
 
 import com.markosullivan.wizards.wizard.model.AbstractWizardModel;
 import com.markosullivan.wizards.wizard.model.BranchPage;
+import com.markosullivan.wizards.wizard.model.InstructionPage;
 import com.markosullivan.wizards.wizard.model.MultipleFixedChoicePage;
 import com.markosullivan.wizards.wizard.model.PageList;
 import com.markosullivan.wizards.wizard.model.SingleFixedChoicePage;
@@ -44,14 +45,6 @@ public class PresentWizardModel extends AbstractWizardModel {
                                 new MultipleFixedChoicePage(this, "Question Two")
                                         .setChoices("A", "B", "C", "D",
                                                 "E")
-
-                                /*new BranchPage(this, "Toasted?")
-                                    .addBranch("Yes",
-                                            new SingleFixedChoicePage(this, "Toast time")
-                                                .setChoices("30 seconds", "1 minute", "2 minutes"))
-                                    .addBranch("No")
-                                    .setValue("No")
-                                    */
                         )
 
                         // Second branch of questions
@@ -71,15 +64,12 @@ public class PresentWizardModel extends AbstractWizardModel {
 
                         // Third branch of questions
                         .addBranch("Branch Three",
+                                new InstructionPage(this, "Info"),
+
                                 new SingleFixedChoicePage(this, "Question One")
                                         .setChoices("A", "B", "C")
                                         .setRequired(true)
                         )
-
-                        .setRequired(true)
-
-                //new CustomerInfoPage(this, "Your info")
-                        //.setRequired(true)
         );
     }
 }

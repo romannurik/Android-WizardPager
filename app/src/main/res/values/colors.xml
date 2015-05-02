@@ -22,4 +22,5 @@
    <!-- <color name="review_green">#ff669900</color> -->
 
     <color name="text_light">#66000000</color>
+    <color name="instruction_text">#9E9E9E</color>
 </resources>

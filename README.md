@@ -12,4 +12,4 @@ This template wizard is a Lollipop version of the original wizard.
 
 I've provided a GIF showing the wizard in action.
 
-![Material Wizard GIF](http://i.imgur.com/5cX4hAw.gif)
+![Material Wizard GIF](http://i.imgur.com/PImgBs0.gif)

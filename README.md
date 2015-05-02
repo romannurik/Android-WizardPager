@@ -8,3 +8,10 @@ This template wizard is a Lollipop version of the original wizard.
 <img src="http://i.imgur.com/zNWejTI.png" width="200">
 <img src="http://i.imgur.com/eG1JNaJ.png" width="200">
 <img src="http://i.imgur.com/S4FceO3.png" width="200">
+
+
+I've provided a GIF showing the wizard in action.
+
+![Material Wizard GIF](http://i.imgur.com/qrnFnIb.gifv)
+
+Thanks to Benjamin Fleet for creating Herp Derpsum which I used as dummy text. It can be found here:  http://herpderpsum.com/

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/InstructionPageContainer">
+
+    <TextView
+        android:id="@+id/testingID"
+        style="@style/WizardPageTitle" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+            style="@style/InstructionTextContainer"
+            android:id="@+id/wrapper_one">
+
+                <TextView
+                    style="@style/InstructionPageText"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/InstructionTextContainer"
+                android:id="@+id/wrapper_two"
+                android:layout_below="@+id/wrapper_one">
+
+                <TextView
+                    style="@style/InstructionPageText"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/InstructionTextContainer"
+                android:id="@+id/wrapper_three"
+                android:layout_below="@id/wrapper_two">
+
+                <TextView
+                    style="@style/InstructionPageText"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/InstructionTextContainer"
+                android:id="@+id/wrapper_four"
+                android:layout_below="@id/wrapper_three">
+
+                <TextView
+                    style="@style/InstructionPageText"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

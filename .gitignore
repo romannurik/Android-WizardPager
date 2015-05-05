@@ -1,57 +1,6 @@
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
 .DS_Store
-
-# Local sandbox
-_sandbox
-
-# built application files
-*.apk
-*.ap_
-
-# files for the dex VM
-*.dex
-
-# Java class files
-*.class
-
-# generated files
-out/
-bin/
-gen/
-
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Eclipse project files
-.classpath
-.project
-
-# IDEA files
-*.iml
-*.ipr
-*.iws
-
-# Other build files
-project.properties
-ant.properties
-build.xml
-proguard-project.txt
-
-# Built application files
-/*/build/
 /build
-
-# Gradle generated files
-.gradle/
-
-# User-specific configurations
-.idea/libraries/
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/.name
-.idea/compiler.xml
-.idea/copyright/profiles_settings.xml
-.idea/encodings.xml
-.idea/misc.xml
-.idea/modules.xml
-.idea/scopes/scope_settings.xml
-.idea/vcs.xml

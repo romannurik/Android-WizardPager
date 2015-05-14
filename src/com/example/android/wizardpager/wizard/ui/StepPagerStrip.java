@@ -79,7 +79,7 @@ public class StepPagerStrip extends View {
         mSelectedTabPaint.setColor(res.getColor(R.color.step_pager_selected_tab_color));
 
         mSelectedLastTabPaint = new Paint();
-        mSelectedLastTabPaint.setColor(res.getColor(R.color.step_pager_selected_last_tab_color));
+        mSelectedLastTabPaint.setColor(res.getColor(R.color.step_pager_selected_tab_color));
 
         mNextTabPaint = new Paint();
         mNextTabPaint.setColor(res.getColor(R.color.step_pager_next_tab_color));

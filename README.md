@@ -10,7 +10,7 @@ Shown below is the original wizard
 <img src="https://lh3.googleusercontent.com/-hZ2RhaJC3Pw/UJNLlM_9qVI/AAAAAAAAnRg/a-UtWyFUgYU/w413-h689-no/3.png" width="200">
 
 
-This is the Material Design version of the same 
+This is the Material Design version of the same wizard
 
 <img src="http://i.imgur.com/ENx6TNO.png" width="200">
 <img src="http://i.imgur.com/dwMJi8s.png" width="200">

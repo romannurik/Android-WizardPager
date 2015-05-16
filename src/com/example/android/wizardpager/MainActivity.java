@@ -158,7 +158,7 @@ public class MainActivity extends FragmentActivity implements
             mNextButton.setBackgroundResource(R.drawable.selectable_item_background);
             TypedValue v = new TypedValue();
             getTheme().resolveAttribute(android.R.attr.textAppearanceMedium, v, true);
-            mNextButton.setTextAppearance(this, v.resourceId);
+            //mNextButton.setTextAppearance(this, v.resourceId);
             mNextButton.setEnabled(position != mPagerAdapter.getCutOffPage());
         }
 

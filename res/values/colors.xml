@@ -24,4 +24,10 @@
 
     <color name="text_light">#66000000</color>
     <color name="instruction_text">#9E9E9E</color>
+
+    <!-- Material theme colours -->
+    <color name="colorPrimary">#009688</color>
+    <color name="textColorPrimary">#F5F5F5</color>
+    <color name="colorPrimaryDark">#00796B</color>
+
 </resources>

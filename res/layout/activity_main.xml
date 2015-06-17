@@ -18,6 +18,13 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <include layout="@layout/toolbar" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@drawable/shadow"/>
+
 
     <com.example.android.wizardpager.wizard.ui.StepPagerStrip
         android:id="@+id/strip"
@@ -55,7 +62,8 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="@string/prev" />
+            android:text="@string/prev"
+            android:textColor="@color/colorPrimary"/>
 
         <Button
             style="?android:attr/buttonBarButtonStyle"
@@ -64,7 +72,8 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="@string/next" />
+            android:text="@string/next"
+            android:textColor="@color/colorPrimary"/>
 
     </LinearLayout>
 

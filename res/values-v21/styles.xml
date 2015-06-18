@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- API 21 application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+
+        <item name="android:textColor">#424242</item>
+
+        <!--   App branding color for the app bar -->
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+
+        <!-- Colour of the text in the app bar -->
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <!-- Color of the navigation bar -->
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+    </style>
+</resources>

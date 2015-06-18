@@ -32,6 +32,8 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.support.v7.app.ActionBarActivity;
+import android.support.v7.widget.Toolbar;
 import android.util.TypedValue;
 import android.view.View;
 import android.view.ViewGroup;
@@ -39,7 +41,7 @@ import android.widget.Button;
 
 import java.util.List;
 
-public class MainActivity extends FragmentActivity implements
+public class MainActivity extends ActionBarActivity implements
         PageFragmentCallbacks,
         ReviewFragment.Callbacks,
         ModelCallbacks {
@@ -58,13 +60,20 @@ public class MainActivity extends FragmentActivity implements
     private List<Page> mCurrentPageSequence;
     private StepPagerStrip mStepPagerStrip;
 
+    public Toolbar toolbar;
+
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
         if (savedInstanceState != null) {
             mWizardModel.load(savedInstanceState.getBundle("model"));
         }
+
+
 
         mWizardModel.registerListener(this);
 
@@ -150,7 +159,7 @@ public class MainActivity extends FragmentActivity implements
         if (position == mCurrentPageSequence.size()) {
             mNextButton.setText(R.string.finish);
             mNextButton.setBackgroundResource(R.drawable.finish_background);
-            mNextButton.setTextAppearance(this, R.style.TextAppearanceFinish);
+            //mNextButton.setTextAppearance(this, R.style.TextAppearanceFinish);
         } else {
             mNextButton.setText(mEditingAfterReview
                     ? R.string.review
@@ -158,7 +167,7 @@ public class MainActivity extends FragmentActivity implements
             mNextButton.setBackgroundResource(R.drawable.selectable_item_background);
             TypedValue v = new TypedValue();
             getTheme().resolveAttribute(android.R.attr.textAppearanceMedium, v, true);
-            mNextButton.setTextAppearance(this, v.resourceId);
+            //mNextButton.setTextAppearance(this, v.resourceId);
             mNextButton.setEnabled(position != mPagerAdapter.getCutOffPage());
         }
 

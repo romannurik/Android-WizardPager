@@ -39,7 +39,8 @@
                 android:saveEnabled="false"
                 android:inputType="textCapWords"
                 android:hint="@string/hint_your_name"
-                android:layout_marginBottom="16dp" />
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/text_light"/>
 
             <TextView style="@style/WizardFormLabel"
                 android:text="@string/label_your_email" />
@@ -49,7 +50,8 @@
                 android:layout_height="wrap_content"
                 android:saveEnabled="false"
                 android:inputType="textEmailAddress"
-                android:hint="@string/hint_your_email" />
+                android:hint="@string/hint_your_email"
+                android:textColor="@color/text_light"/>
 
         </LinearLayout>
     </ScrollView>

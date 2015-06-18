@@ -3,8 +3,6 @@ Android Lollipop wizard template
 
 Fork of Roman Nurik's Example `ViewPager`-based wizard UI sample code. For further information on his wizard, see [his Google+ post](https://plus.google.com/+RomanNurik/posts/6cVymZvn3f4) or [his Github project page](https://github.com/romannurik/android-wizardpager).
 
-NOTE: Only Lollipop Android devices have been tested so far with these changes. Devices with Ice Cream Sandwich to KitKat (API 14 - 20) haven't been tested yet. 
-
 
 Shown below is the original wizard
 

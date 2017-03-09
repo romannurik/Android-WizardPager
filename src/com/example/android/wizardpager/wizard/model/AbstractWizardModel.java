@@ -97,4 +97,12 @@ public abstract class AbstractWizardModel implements ModelCallbacks {
     public void unregisterListener(ModelCallbacks listener) {
         mListeners.remove(listener);
     }
+    
+    /**
+     * Get context
+     * @return Context
+    */
+    public void getContext(){
+        return mContext;
+    }
 }

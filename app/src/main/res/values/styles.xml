@@ -39,7 +39,7 @@
         <item name="android:paddingLeft">?android:attr/listPreferredItemPaddingLeft</item>
         <item name="android:textSize">36sp</item>
         <item name="android:textColor">#ff0099cc</item>
-        <item name="android:fontFamily">sans-serif-thin</item>
+        <!--<item name="android:fontFamily">sans-serif-thin</item>-->
     </style>
 
     <style name="WizardFormLabel">
